@@ -95,6 +95,7 @@ namespace SalesWebMvc.Controllers
         }
 
         [HttpPost]
+
         [ValidateAntiForgeryToken]
         public IActionResult Edit(int id, Seller seller)
         {
